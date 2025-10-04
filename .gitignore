@@ -43,3 +43,24 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Deployment guides and documentation
+DEPLOYMENT_GUIDE.md
+VERCEL_DEPLOYMENT_GUIDE.md
+SETUP_GUIDE.md
+
+# Development and deployment scripts
+deploy.sh
+
+# IDE and editor files
+.vscode/
+*.code-workspace
+
+# Environment files (if you add them later)
+.env
+.env.local
+.env.production
+
+# Temporary files
+*.tmp
+*.temp
