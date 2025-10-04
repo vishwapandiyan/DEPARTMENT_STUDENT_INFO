@@ -1,5 +1,5 @@
 [build]
-  command = "flutter build web --release"
+  command = "chmod +x build.sh && ./build.sh"
   publish = "build/web"
 
 [[redirects]]
@@ -9,7 +9,6 @@
 
 [build.environment]
   FLUTTER_WEB_AUTO_DETECT = "true"
-  PUB_CACHE = "/opt/build/cache/.pub-cache"
 
 [[headers]]
   for = "/*"
